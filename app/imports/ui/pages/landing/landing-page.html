@@ -4,60 +4,61 @@
     <div class="ui grid">
 
       <div class="row">
+        <div class="ui four wide column">
+          <div class="ui big icon input">
+            <input type="text" placeholder="Search big...">
+            <i class="search icon"></i>
+          </div>
+        </div>
         <div class="ui right aligned sixteen wide column">
           {{> Cas_Login }}
         </div>
 
       </div>
+
       <div class="row">
-        <div class="ui center aligned sixteen wide column">
-          <h1 class="landing-section-1-welcome">Welcome to BowFolios</h1>
-          <h3 class="landing-section-1-tagline">Professional portfolios and networking for the University of Hawaii community</h3>
+        <div class="ui yellow message">
+          <i class="star icon"></i>
+          To make the entire content of an item link, check out the link variation below
+        </div>
+        <div class="ui items">
+          <div class="item">
+            <a class="ui tiny image">
+              <img src="/images/avatar/large/stevie.jpg">
+            </a>
+            <div class="content">
+              <a class="header">Stevie Feliciano</a>
+              <div class="description">
+                <p>Stevie Feliciano is a <a>library scientist</a> living in New York City. She likes to spend her time reading, running, and writing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <a class="ui tiny image">
+              <img src="/images/avatar/large/veronika.jpg">
+            </a>
+            <div class="content">
+              <a class="header">Veronika Ossi</a>
+              <div class="description">
+                <p>Veronika Ossi is a set designer living in New York who <a>enjoys</a> kittens, music, and partying.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <a class="ui tiny image">
+              <img src="/images/avatar/large/jenny.jpg">
+            </a>
+            <div class="content">
+              <a class="header">Jenny Hess</a>
+              <div class="description">
+                <p>Jenny is a student studying Media Management at <a>the New School</a>.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/profile.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Create your portfolio.</h1>
-        <h1 class="landing-section-header">Specify your interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-3">
-    <div class="ui grid">
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Publish your portfolio in the BowFolio directory.</h1>
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/directory.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/filter.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Find UH community members with similar interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-5">
-    <div class="ui grid">
-      <div class="ui center aligned sixteen wide column">
-        {{> Cas_Login size="large"}}
-      </div>
-    </div>
-  </div>
 
 </template>
